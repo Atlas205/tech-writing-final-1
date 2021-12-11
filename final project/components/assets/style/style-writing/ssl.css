@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+    text-shadow: 2px gray;
+    font-size: 50px;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.container{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h6 {
+    text-align: center;
+}
+
+body{
+    background-image: repeating-linear-gradient(#d62eff, #6346ff);
+    height: 100%;
+}
+
+img {
+    width: 250px;
+    height: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+p{
+    color: rgb(240, 240, 240);
+}

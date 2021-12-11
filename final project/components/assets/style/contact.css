@@ -1,0 +1,371 @@
+@charset "utf-8";
+@import "base.css";
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/*  A nice, good-looking form                            */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+.form {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.form h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.form p {
+    margin-top: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+form {
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 400px;
+    font-size: 0;
+}
+
+input {
+    width: 100%;
+    height: 50px;
+    padding: 0 15px;
+    background-color: #fff;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    transition: border-color .25s ease-in-out;
+}
+
+form input + input {
+    margin-top: 15px;
+}
+
+input:focus, textarea:focus {
+    border: 1px solid #61cafd;
+}
+
+textarea{
+   margin-top: 15px;
+   width: 100%;
+   min-width: 100%;
+   height: 160px;
+   padding: 15px;
+   font-size: 16px;
+   font-weight: 400;
+   background-color: #fff;
+   border: 1px solid #bbb;
+   border-radius: 4px;
+   resize: none;
+   overflow: auto;
+   transition: border-color .25s ease-in-out;
+}
+
+input[type="text"]:valid, input[type="email"]:valid {
+    background: #fff url(../img/valid.png) no-repeat 97% center;
+    background-size: 13px 13px;
+}
+
+textarea:valid {
+    background: #fff url(../img/valid.png) no-repeat 97% center;
+    background-size: 13px 13px;
+}
+
+.buttons {
+    text-align: right;
+    border-color: rgb(0, 0, 0);
+}
+
+input[type="reset"] {
+    width: 110px;
+    height: 46px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #039be5;
+    font-weight: 600;
+    letter-spacing: .2px;
+    color: #039be5;
+    cursor: pointer;
+}
+
+input[type="reset"]:hover {
+    border: 1px solid #038ed2;
+    color: #038ed2;
+}
+
+input[type="submit"] {
+    margin-left: 15px;
+    width: 110px;
+    height: 46px;
+    text-align: center;
+    background-color: #039be5;
+    border: 1px solid #039be5;
+    font-weight: 600;
+    letter-spacing: .2px;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color:  #038ed2;
+}
+
+
+/*--------------------------------------*/
+/* fun design                           */
+/*--------------------------------------*/
+
+body{
+    background:rgb(0, 0, 0) url("../assets/imgs/jason-leung-UMncYEfO9-U-unsplash.jpg");
+}
+
+
+
+header {
+    min-width: 100%;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+  }
+  
+  header div {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .title {
+    height: 50px;
+  }
+  
+  .title h1 {
+    font-size: 18px;
+    font-weight: 600;
+    color:  rgb(126, 60, 211);
+    line-height: 50px;
+    letter-spacing: .4px;
+    text-transform: uppercase;
+  }
+  
+  nav {
+    text-align: right;
+    height: 50px;
+  }
+  
+  nav ul {
+    list-style: none;
+    font-size: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    line-height: 50px;
+    cursor: default;
+  }
+  
+  nav ul li a {
+    font-size: 17px;
+    color: rgb(126, 60, 211);
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: .2px;
+    text-transform: none;
+    cursor: pointer;
+    border-color: rgb(0, 0, 0);
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  nav ul li + li {
+    margin-left: 25px;
+  }
+  
+  .mobile-nav {
+    overflow: hidden;
+  }
+  
+  .mobile-nav p i {
+    margin-top: 15px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  
+
+
+  header {
+    min-width: 100%;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+  }
+  
+  header div {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .title {
+    height: 50px;
+  }
+  
+  .title h1 {
+    font-size: 18px;
+    font-weight: 600;
+    color:  rgb(126, 60, 211);
+    line-height: 50px;
+    letter-spacing: .4px;
+    text-transform: uppercase;
+  }
+  
+  nav {
+    text-align: right;
+    height: 50px;
+  }
+  
+  nav ul {
+    list-style: none;
+    font-size: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    line-height: 50px;
+    cursor: default;
+  }
+  
+  nav ul li a {
+    font-size: 17px;
+    color:  rgb(126, 60, 211);
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: .2px;
+    text-transform: none;
+    cursor: pointer;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  nav ul li + li {
+    margin-left: 25px;
+  }
+  
+  .mobile-nav {
+    overflow: hidden;
+  }
+  
+  .mobile-nav p i {
+    margin-top: 15px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+
+
+
+
+  footer {
+    min-width: 100%;
+    height: 100px;
+    background-color: rgb(37, 37, 37);
+    overflow: hidden;
+ }
+ 
+ .footer-content {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+ }
+ 
+ .social .nav {
+    min-width: 100%;
+    height: 4rem;
+    text-align: left;
+ }
+ 
+ .social .nav ul li + li {
+    margin-left: 10px;
+ }
+ 
+ .social .nav ul li {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    overflow: hidden;
+ }
+ 
+ .social .nav ul li a {
+    display: inline-block;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    color: #dd3bdd;
+    border: 1px solid #4c4cce;
+    background-color: transparent;
+    border-radius: 5rem;
+ }
+ 
+ .social .nav ul li a i {
+    font-size: 19px;
+ }
+ 
+ a, i {
+    transition: all .2s ease-in-out;
+ }
+ 
+ .social .nav ul li a i.fa-twitter {
+    line-height: 40px;
+ }
+ 
+ .social .nav ul li a i.fa-instagram,
+ .social .nav ul li a i.fa-youtube {
+    line-height: 38px;
+ }
+ 
+ .social .nav ul li a.twitter:hover {
+    border: 1px solid #1da1f2;
+    background-color: #1da1f2;
+ }
+ 
+ .social .nav ul li a.instagram:hover {
+    border: 1px solid #e1306c;
+    background-color: #e1306c;
+ }
+ 
+ .social .nav ul li a.youtube:hover {
+    border: 1px solid #ff0000;
+    background-color: #ff0000;
+ }
+ 
+ .social .nav ul li a.twitter:hover i,
+ .social .nav ul li a.instagram:hover i,
+ .social .nav ul li a.youtube:hover i {
+    color: #fff;
+ }
+ 
+ .copyright {
+    height: 40px;
+    text-align: right;
+ }
+ 
+ .copyright p {
+    line-height: 40px;
+    color:  rgb(126, 60, 211);
+    font-size: 16px;
+    font-weight: 400;
+ }

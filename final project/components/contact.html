@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--contacting me-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>contact</title>
+    <link rel="shortcut icon" href="assets/img/favicon.png?v=2" type="image/x-icon">
+    <link rel="stylesheet" href="../components/assets/style/contact.css" media="all">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="container flexbox">
+            <div class="title">
+                <h1>contact <i class="fas fa-cubes"></i></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" target="">home</a></li>
+                    <li><a href="writing.html" target="">writing</a></li>
+                    <li><a href="about-me.html" target="">about me</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-nav">
+                <p><i class="fas fa-bars" title="Menu"></i>
+                <p>
+            </div>
+        </div>
+    </header>
+
+    <main></main>
+    <div class="container">
+        <div class="form">
+            <h2>contact form</h2>
+            <p>Fields with * are required</p>
+            <form method="POST" action="#" name="registration">
+                <input type="text" name="first_name" placeholder="First name *" pattern="^[a-zA-Z]$" required>
+                <input type="text" name="last_name" placeholder="Last name *" required>
+                <input type="text" name="age" placeholder="Age *" required>
+                <input type="email" name="email" placeholder="Email (abc@email.com) *"
+                    pattern="^(?=^.{8,}$)[-_A-Za-z0-9]+([_.-][a-zA-Z0-9]+)*@[A-Za-z0-9]+([.-][a-zA-Z0-9]+)*\.[A-Za-z]{2,}$"
+                    required>
+                <!-- <input type="tel" name="phone" placeholder="Phone *" required>
+                    <input type="text" name="postal_code" placeholder="Postal code (A1B 2C3)*" required> -->
+                <textarea name="message" placeholder="Message" maxlength="10" required></textarea>
+                <div class="buttons">
+                    <input type="reset" value="Clear">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <main></main>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="social">
+                    <div class="nav">
+                        <ul>
+                            <li><a class="twitter" href="#" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+                            <li><a class="instagram" href="https://www.instagram.com/casualxmemer/" title="Instagram"><i
+                                        class="fab fa-instagram"></i></a></li>
+                            <li><a class="youtube" href="https://www.youtube.com/channel/UCFAiFyGs6oDiF1Nf-rRJpZA"
+                                    title="YouTube"><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>&copy 2021 Super Website</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
